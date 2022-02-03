@@ -23,16 +23,7 @@ import csv
 import dvc.api
 import yaml
 
-# %%
-#from google.colab import drive
-#drive.mount('/content/drive/')
 
-
-# %%
-#cd /content/drive/My Drive/Colab Notebooks/
-
-
-# %%
 train_df_path = "Data/creditcard.csv"
 data_fraud = pd.read_csv(train_df_path)
 params = yaml.safe_load(open("params.yaml"))["params"]
