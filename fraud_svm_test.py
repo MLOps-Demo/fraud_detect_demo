@@ -82,7 +82,6 @@ with open('plots.json', 'w') as fd:
     )   
 
 
-
 #a=plt.plot_roc_curve(test_fpr, test_tpr, label=" AUC TEST ="+str(auc(test_fpr, test_tpr)))
 
 #plt.legend()
