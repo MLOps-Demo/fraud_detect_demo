@@ -69,6 +69,7 @@ with open('Output/Accuracy.json', 'w') as f:
 	json.dump(data,f, indent=4, separators=(',', ': '))
 
 '''
+
 with open('plots.json', 'w') as fd:
 	json.dump(
         {
